@@ -1,6 +1,13 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
 div.v1 {
-    width: 400px;
-    height: 900px;
+    height: 100%;
 
     position: relative;
     top: 0px;
@@ -8,8 +15,8 @@ div.v1 {
 }
 
 div.v11 {
-    width: 400px;
-    height: 80px;
+    width: 100%;
+    height: 10%;
 
     position: fixed;
     top: 0px;
@@ -20,8 +27,8 @@ div.v111 {
     background-color: red;
 
     position: absolute;
-    width: 200px;
-    height: 80px;
+    width: 50%;
+    height: 100%;
 
 }
 
@@ -41,8 +48,8 @@ div.v112 {
 
     position: absolute;
     right: 0px;
-    width: 200px;
-    height: 80px;
+    width: 50%;
+    height: 100%;
 }
 
 p.p112 {
@@ -57,18 +64,18 @@ p.p112 {
 
 div.v12 {
     position: absolute;
-    top: 80px;
     background-color: brown;
-    height: 150px;
-    width: 400px;
+    top: 10%;
+    height: 15%;
+    width: 100%;
 }
 
 div.v121 {
     position: absolute;
     top: 0px;
     background-color: purple;
-    height: 50px;
-    width: 400px;
+    height: 20%;
+    width: 100%;
 }
 
 p.p121 {
@@ -81,24 +88,107 @@ p.p121 {
 
 div.v122 {
     position: absolute;
-    top: 50px;
+    top: 20%;
     background-color: goldenrod;
-    height: 50px;
-    width: 400px;
+    height: 40%;
+    width: 100%;
 }
 
 div.v123 {
     position: absolute;
-    top: 100px;
+    top: 60%;
     background-color: grey;
-    height: 50px;
-    width: 400px;
+    height: 40%;
+    width: 100%;
 }
 
 div.v13 {
     position: absolute;
-    top: 230px;
+    top: 25%;
     background-color: palevioletred;
-    height: 300px;
-    width: 400px;
+    height: 25%;
+    width: 100%;
+}
+
+div.v131 {
+    position: absolute;
+    top: 0%;
+    height: 30%;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+div.v132 {
+    position: absolute;
+    top: 30%;
+    height: 70%;
+    width: 100%;
+
+    background-color: blue;
+}
+
+div.v1321 {
+    position: absolute;
+    top: 0%;
+    height: 50%;
+    width: 50%;
+
+    background-color: black;
+}
+
+div.v1322 {
+    position: absolute;
+    top: 50%;
+    height: 50%;
+    width: 50%;
+
+    background-color: pink;
+}
+
+div.v1323 {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    height: 50%;
+    width: 50%;
+
+    background-color: white;
+}
+
+div.v1324 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    width: 50%;
+
+    background-color: green;
+}
+
+div.v14 {
+    position: absolute;
+    top: 50%;
+    height: 25%;
+    width: 100%;
+
+    background-color: antiquewhite;
+}
+
+div.v15 {
+    position: absolute;
+    top: 75%;
+    height: 20%;
+    width: 100%;
+
+    background-color: darkkhaki;
+}
+
+
+div.v16 {
+    position: absolute;
+    top: 95%;
+    height: 5%;
+    width: 100%;
+
+    background-color: paleturquoise;
 }
