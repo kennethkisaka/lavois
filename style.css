@@ -118,9 +118,7 @@ div.v131 {
     background-color: aquamarine;
 }
 
-p {
-    font-size: 75%;
-}
+
 
 p.p131 {
     position: absolute;
@@ -186,8 +184,19 @@ div.v14 {
     background-color: antiquewhite;
 }
 
+p.p14 {
+    left: 0%;
+}
+
+div.v141 {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+
+}
+
 div.v15 {
-    position: fixed;
+    position: absolute;
     bottom: 5%;
     height: 20%;
     width: 100%;
